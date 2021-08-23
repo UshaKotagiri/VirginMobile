@@ -1,0 +1,56 @@
+timeout: 10
+
+expectedTitle: contentcloud
+
+elements:
+    planandp1:
+        findBy: xpath
+        locator: //span[contains(text(),'Plans and Products')]
+    clickOnRoam:
+        findBy: xpath
+        locator: //li[@id='menu-item-26129']//a[contains(text(),'International Roaming')]
+    selectcountriesa:
+        findBy: xpath
+        locator: //select[@id='slct_countries_roaming']
+    roamrates:
+        findBy: xpath
+        locator: //select[@id='slct_countries_roaming']
+    planProduct:
+        findBy: xpath
+        locator: //span[contains(text(),'Plans and Products')]
+    localRoamrates:
+        findBy: xpath
+        locator: //th[contains(text(),'Call to KSA')]
+    HeaderRoaming:
+        findBy: xpath
+        locator: //span[contains(text(),'International')]
+    HeaderBanner:
+        findBy: xpath
+        locator: //li[@id='menu-item-24072']//span
+    RoamingBundles:
+        findBy: xpath
+        locator: //div[@class='box-title']
+    TextRoamingBundles:
+        findBy: xpath
+        locator: //div[@class='code-line shiftPadding']
+    TextRoaming25sar:
+        findBy: xpath
+        locator: //div[contains(text(),'25')]//span
+    TextRoaming50sar:
+        findBy: xpath
+        locator: //div[contains(text(),'50')]//span
+    TextRoamingkuwait:
+        findBy: xpath
+        locator: //tr[2]//td[1]//div[1]//span[1]
+    Validitytab:
+        findBy: xpath
+        locator: //th[contains(text(),'Valid For')]
+    YouPayTab:
+        findBy: xpath
+        locator: //th[contains(text(),'You Pay')]
+    YouGetTab:
+        findBy: xpath
+        locator: //th[contains(text(),'You Get')]
+    
+    
+       

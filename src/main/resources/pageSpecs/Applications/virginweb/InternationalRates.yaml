@@ -1,0 +1,33 @@
+timeout: 10
+
+expectedTitle: contentcloud
+
+elements:
+    planandprdt:
+        findBy: xpath
+        locator: //span[contains(text(),'Plans and Products')]
+    intrratesa:
+        findBy: xpath
+        locator: //li[@id='menu-item-26130']//a[contains(text(),'International Rates')]
+    selectCountries:
+        findBy: xpath
+        locator: //select[@id='slct_countries']
+    localrates1:
+        findBy: xpath
+        locator: //div[contains(text(),'Local SMS')]
+    hamburgerMobile:
+        findBy: xpath
+        locator: //i[@id='burger-btn']
+    planhamburgerMobile:
+        findBy: xpath
+        locator: //span[contains(text(),'Plans & products')]
+    InternationalRatehamburgerMobile:
+        findBy: xpath
+        locator: //body/div[12]/div[1]/ul[1]/li[2]/ul[1]/li[4]/a[1]   
+    localInMobileView:
+        findBy: xpath
+        locator: //body/div[2]/div[2]/div[1]/div[1]/div[3]/div[2]/div[1]
+    SelectCountriesClick:
+        findBy: xpath
+        locator: //select[@id='slct_countries']
+        

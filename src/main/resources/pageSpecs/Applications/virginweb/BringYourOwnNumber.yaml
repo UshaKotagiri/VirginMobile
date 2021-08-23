@@ -1,0 +1,49 @@
+timeout: 10
+
+expectedTitle: contentcloud
+
+elements:
+    PortNumber:
+        findBy: xpath
+        locator: //div[contains(text(),'Port your number')]
+    MobileNumber:
+        findBy: xpath
+        locator: //input[@id='mnp_number']
+    OperatorName:
+        findBy: xpath
+        locator: //select[@name='operator_id']
+    Confirm:
+        findBy: xpath
+        locator: //button[normalize-space()='Confirm']
+    BringNumberText:
+        findBy: xpath
+        locator: //span[contains(text(),'BRING YOUR')]
+    BringNumberScreen:
+        findBy: xpath
+        locator: //div[contains(text(),'Your MNP request to port in your own number with V')]
+    ProgressDropdown:
+        findBy: xpath
+        locator: //div[@class='progress-title']
+    Country:
+        findBy: xpath
+        locator: //select[@name='country_select']
+    OptionalNumber:
+        findBy: xpath
+        locator: //input[@id='contact_number']
+    VerificationCode:
+        findBy: xpath
+        locator: //div[contains(text(),'Verification code required')]
+    CodeTab:
+        findBy: xpath
+        locator: //input[@id='otp']
+    ConfirmCode:
+        findBy: xpath
+        locator: //button[contains(text(),'CONFIRM')]
+    SendAgain:
+        findBy: xpath
+        locator: //div[contains(text(),'Send again')]
+    Hamburger:
+        findBy: xpath
+        locator: //i[@id='burger-btn']
+    
+   

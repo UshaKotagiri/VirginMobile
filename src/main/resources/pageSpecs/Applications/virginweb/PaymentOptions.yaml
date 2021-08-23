@@ -1,0 +1,68 @@
+timeout: 10
+
+expectedTitle: contentcloud
+
+elements:
+    GetPlan:
+        findBy: xpath
+        locator: //li[@id='menu-item-25770']//a[normalize-space()='Plans']
+    plans:
+        findBy: xpath
+        locator: //li[@id='menu-item-25770']//a[normalize-space()='Plans']
+    PlanProduct:
+        findBy: xpath
+        locator: //span[normalize-space()='Plans and Products']
+    NumberDD:
+        findBy: xpath
+        locator: //i[class='arrow']
+    SearchForm:
+        findBy: xpath
+        locator: //input[@id='searchform2']
+    GetHelp:
+        findBy: xpath
+        locator: //a[@href='https://staging.virginmobile.sa/en/faq_category/number']
+    AbsherBtn:
+        findBy: xpath
+        locator: //button[normalize-space()='Absher Login']
+    ReturnIamDummy:
+        findBy: xpath
+        locator: //a[normalize-space()='Return Dummy IAM Token']
+    GetMeSim:
+        findBy: xpath
+        locator: //label[normalize-space()='Get me the SIM delivered']
+    GetYourSim:
+        findBy: xpath
+        locator: //span[contains(text(),'YOUR SIM')]
+    PayNow:
+        findBy: xpath
+        locator: //button[normalize-space()='Pay now']
+    DetailsSim:
+        findBy: xpath
+        locator: //div[@class='reserved-mobile-number']
+    PayNowStuff:
+        findBy: xpath
+        locator: //button[normalize-space()='Pay Now']
+    PayYourStuff:
+        findBy: xpath
+        locator: //span[contains(text(),'YOUR STUFF')]
+    CardNumberField:
+        findBy: xpath
+        locator: //input[@id='card_number']
+    CardNameField:
+        findBy: xpath
+        locator: //input[@id='card_holder_name']
+    ExpiryDate:
+        findBy: xpath
+        locator: //input[@id='expiry_date_for_form']
+    Donetab:
+        findBy: xpath
+        locator: //input[@value='Done']
+    CvvNumber:
+        findBy: xpath
+        locator: //input[@id='card_security_code']
+    TryAgain:
+        findBy: xpath
+        locator: //button[normalize-space()='TRY AGAIN']
+   
+       
+     

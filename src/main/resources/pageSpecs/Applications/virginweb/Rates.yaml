@@ -1,0 +1,46 @@
+timeout: 10
+
+expectedTitle: contentcloud
+
+elements:
+    PlanandProductAgain:
+        findBy: xpath
+        locator: //span[contains(text(),'Plans and Products')]
+    FrendiAgain:
+        findBy: xpath
+        locator: //li[@id='menu-item-34277']//a[contains(text(),'FRiENDi package')]
+    internationalFrendiRtes:
+        findBy: xpath
+        locator: //div[@id='international_link']  
+    RtesFrendibtn:
+        findBy: xpath
+        locator: //div[@id='rates-lnk']
+    PackageFrendiRtes:
+        findBy: xpath
+        locator: //tbody[2]//tr[1]//td[7]//div[1]//a[1]
+    RoamingFrendiRtes:
+        findBy: xpath
+        locator: //div[@id='roaming_link']
+    RoamingFrendiRtes:
+        findBy: xpath
+        locator: //select[@id='slct_countries_roaming']
+    OffersFrendiClick:
+        findBy: xpath
+        locator: //div[@id='hotOffer-lnk']
+    OffersFrendiClick:
+        findBy: xpath
+        locator: //div[@id='hotOffer-lnk']
+    packageFrendiOffers:
+        findBy: xpath
+        locator: //tr[2]//td[8]//div[1]//a[1]
+    RatesInRoaming:
+        findBy: xpath
+        locator: //div[normalize-space()='IDD Bundles']
+    RatesInPackage:
+        findBy: xpath
+        locator: //div[normalize-space()='Bundelha Plans']
+    PackageFile:
+        findBy: xpath
+        locator: //body/img[1]
+    
+        

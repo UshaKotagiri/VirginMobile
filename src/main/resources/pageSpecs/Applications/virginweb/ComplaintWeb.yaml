@@ -1,0 +1,126 @@
+timeout: 10
+
+expectedTitle: complaint
+
+elements:
+   raiseComplain: 
+     findBy: xpath
+     locator: //a[contains(text(),'Raise a complaint')]
+   ComplainTicket: 
+     findBy: xpath
+     locator: //span[contains(text(),'tickets')]
+   complain:
+      findBy: xpath
+      locator: //a[contains(.,'Complaints')]
+   complainp:
+      findBy: xpath
+      locator: //span[contains(text(),'Complaints')] 
+   contactusP:
+      findBy: xpath
+      locator: //span[contains(text(),'Contact')]
+   subCategoryDropdown:
+      findBy: xpath
+      locator: //select[@id='complaint_subcategory']
+   contactTextField:
+      findBy: xpath
+      locator: //input[@id='complaint_mobile_number']
+   complaintext:
+      findBy: xpath
+      locator: (//a[.='Contact Us'])[2]
+   virginlogo:
+      findBy: xpath
+      locator: //a[@class='main-logo']
+   scrollDown:
+      findBy: xpath
+      locator: //div[@class='copywrite']
+   SubmitButton:
+      findBy: xpath
+      locator:  //input[@id='submit_complaint_form' and @value='Submit']
+   categryDropdown:
+      findBy: xpath
+      locator: //select[@id='complaint_subcategory']
+   Termsoffering:
+      findBy: xpath
+      locator: //a[contains(text(),'Terms for Offering Telecom Services')]
+   Termsofferingp:
+      findBy: xpath
+      locator: //span[contains(text(),'Terms')] 
+   customerrights:   
+      findBy: xpath
+      locator: //a[contains(text(),'The Customer’s Rights and Responsibilities')]
+   customerrightp:
+      findBy: xpath
+      locator: //span[contains(text(),'Customers')]
+   raiseComplain: 
+     findBy: xpath
+     locator: //a[contains(text(),'Raise a complaint')]
+   VerificationCode:
+      findBy: xpath
+      locator: //input[@id='send-verification-code']
+   yourNumber:
+      findBy: xpath
+      locator: //div[contains(text(),'You Number')]
+   ticketDetail:
+      findBy: xpath
+      locator: //div[contains(text(),'Ticket details')]
+   confirmation:
+      findBy: xpath
+      locator: //div[contains(text(),'Enter your data for this ticket')]
+   errorcontact:
+      findBy: xpath
+      locator: //label[@id='mobile-number-error']
+   verifybutton:
+      findBy: xpath
+      locator: //input[@id='send_otp']
+   otpcontact:
+      findBy: xpath
+      locator: //input[@id='otp_input']
+   directchat:
+      findBy: xpath
+      locator: //span[contains(text(),'Direct chat')]
+   emailcontact:
+      findBy: xpath
+      locator: //input[@id='complaint_email']
+   subject:
+      findBy: xpath
+      locator: //input[@id='complaint_subject'] 
+   network:
+      findBy: xpath
+      locator: //select[@id='complaint_category']
+   subCategory:
+      findBy: xpath
+      locator: //select[@id='complaint_subcategory']
+   Message:
+      findBy: xpath
+      locator: //textarea[@id='complaint_message']
+   SorryPae:
+      findBy: xpath
+      locator: //h2[contains(text(),'SORRY SOMETHING WENT WRONG')]
+   goback:
+      findBy: xpath
+      locator: //a[text()='GO BACK & TRY AGAIN']
+   createTicket:
+      findBy: xpath
+      locator: //h2[contains(text(),'Create Ticket')]
+   otp:
+      findBy: xpath
+      locator: //input[@id='otp_input']
+   submitTicket:
+      findBy: xpath
+      locator: //input[@id='otp_input']
+   Resendotp:
+      findBy: xpat
+      locator: //input[@id='resend_otp']
+   ResendMessage:
+      findBy: xpath
+      locator: //label[@id='otp_resend-error']
+   vericationMessage:
+      findBy: xpath
+      locator: //label[contains(text(),'Enter the one-time-passowrd')]
+   contactus:
+      findBy: xpath
+      locator: (//a[.=' CONTACT US '])[2]
+      
+      
+      
+  

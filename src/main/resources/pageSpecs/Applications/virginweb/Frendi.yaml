@@ -1,0 +1,176 @@
+timeout: 10
+
+expectedTitle: contentcloud
+
+elements:
+    Pandpts:
+        findBy: xpath
+        locator: //span[contains(text(),'Plans and Products')]
+    frendiagain:
+        findBy: xpath
+        locator: //li[@id='menu-item-34277']//a[contains(text(),'FRiENDi package')]
+    packagebtn:
+        findBy: xpath
+        locator: //div[@id='about-lnk']
+    dataBtn:
+        findBy: xpath
+        locator: //div[@id='data-lnk']
+    frendiCall:
+        findBy: xpath
+        locator: //div[@id='voice-lnk']
+    frendiCall:
+        findBy: xpath
+        locator: //div[@id='rates-lnk']
+    QuickCheck:  
+        findBy: xpath
+        locator: //li[@id='menu-item-34994']//a[contains(text(),'QUICK TOP-UP')]
+    DataBundles:
+        findBy: xpath
+        locator: //div[contains(text(),'Data Bundles')]
+    DataVerify:
+        findBy: xpath
+        locator: //div[@data-title='Fees'][contains(normalize-space(),'8.99')]
+    LocalData:
+        findBy: xpath
+        locator: //div[contains(text(),'Local Calls / SMS')] 
+    SmsData:
+        findBy: xpath
+        locator: //span[contains(text(),'Local SMS')]
+    vatText:
+        findBy: xpath
+        locator: //body/div[@class='white-page']/div[@class='page main-content']/div[@class='container']/div[@class='tabs-container-x friendi-tabs']/div[@class='tabs-content']/div[@id='voice-tab']/ul[@class='code-line']/li[contains(normalize-space(),'is applied at the time of recharge or through tran')]/strong[1]
+    halalaData:
+        findBy: xpath
+        locator: //th[contains(text(),'Halala per Second')]  
+    OtherNetworks:
+        findBy: xpath
+        locator: //span[contains(text(),'Other mobile networks and landlines')]
+    Fees1:
+        findBy: xpath
+        locator: //div[@data-title='Fees'][contains(normalize-space(),'1.50')]
+    Fees2:
+        findBy: xpath
+        locator: //div[@data-title='Fees'][contains(normalize-space(),'1.50')]
+    IDDBundles:
+        findBy: xpath
+        locator: //div[contains(text(),'IDD Bundles')]
+    table: 
+        findBy: xpath
+        locator: //th[contains(normalize-space(),'InternationalCalls')]
+    India: 
+        findBy: xpath
+        locator: //div[@data-title='Country']//span[@class='currency_symbol'][contains(normalize-space(),'India')]
+    Bangladesh: 
+        findBy: xpath
+        locator: //div[@data-title='Country']//span[@class='currency_symbol'][contains(normalize-space(),'Bangladesh')]
+    Pakistan: 
+        findBy: xpath
+        locator: //div[@data-title='Country']//span[@class='currency_symbol'][contains(normalize-space(),'Pakistan')]
+    Phillipines: 
+        findBy: xpath
+        locator: //div[@data-title='Country']//span[@class='currency_symbol'][contains(normalize-space(),'Philippines')]
+    Syria: 
+        findBy: xpath
+        locator: //div[@data-title='Country']//span[@class='currency_symbol'][contains(normalize-space(),'Syria')]
+    Egypt: 
+        findBy: xpath
+        locator: //div[@data-title='Country']//span[@class='currency_symbol'][contains(normalize-space(),'Egypt')]
+    Nepal: 
+        findBy: xpath
+        locator: //div[@data-title='Country']//span[@class='currency_symbol'][contains(normalize-space(),'Nepal')]
+    VatText: 
+        findBy: xpath
+        locator: //div[@id='rates-tab']//li[2]//strong[1]
+    InternationalCall: 
+        findBy: xpath
+        locator: //div[@class='plan-box-tab-title'][contains(normalize-space(),'International calls Pay as you go')]
+    IntRate1: 
+        findBy: xpath
+        locator: //span[contains(normalize-space(),'Bangladesh, Egypt, India, Jordan, Sudan')]
+    IntRate2: 
+        findBy: xpath
+        locator: //span[contains(normalize-space(),'Nepal, Pakistan, Philippines')]
+    IntRate3: 
+        findBy: xpath
+        locator: //span[contains(normalize-space(),'Yemen')]
+    IntRate4: 
+        findBy: xpath
+        locator: //span[contains(normalize-space(),'Afghanistan, Indonesia, Lebanon, Sri Lanka, Syria,')]
+    dropDown: 
+       findBy: xpath
+       locator: //select[@id='slct_countries'] 
+    OfferTab: 
+       findBy: xpath
+       locator: //div[@id='hotOffer-lnk']
+    BundelhaPlan: 
+       findBy: xpath
+       locator: //div[@class='plan-box-tab-title'][contains(normalize-space(),'Bundelha Plans')] 
+    sar19: 
+       findBy: xpath
+       locator: //div[@data-title='Fee'][contains(normalize-space(),'19')] 
+    sar45: 
+       findBy: xpath
+       locator: //div[@data-title='Fee'][contains(normalize-space(),'45')] 
+    sar70: 
+       findBy: xpath
+       locator: //div[@data-title='Fee'][contains(normalize-space(),'70')]
+    sar90: 
+       findBy: xpath
+       locator: //div[@data-title='Fee'][contains(normalize-space(),'90')] 
+    sar110: 
+       findBy: xpath
+       locator: //div[@data-title='Fee'][contains(normalize-space(),'110')] 
+    Bonus: 
+       findBy: xpath
+       locator: //div[@class='plan-box-tab-title'][contains(normalize-space(),'Bonus Discount on Recharge')] 
+    sar10: 
+       findBy: xpath
+       locator: //body[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[5]/div[4]/table[1]/tbody[1]/tr[2]/td[1]/div[1]
+    sar15: 
+       findBy: xpath
+       locator: //div[@data-title='Recharge Denomination'][contains(normalize-space(),'15')] 
+    sar20: 
+       findBy: xpath
+       locator: //div[@data-title='Recharge Denomination'][contains(normalize-space(),'20')] 
+    sar30: 
+       findBy: xpath
+       locator: //div[@data-title='Recharge Denomination'][contains(normalize-space(),'30')] 
+    sar50: 
+       findBy: xpath
+       locator: //div[@data-title='Recharge Denomination'][contains(normalize-space(),'50')]
+    sar100: 
+       findBy: xpath
+       locator: //div[@data-title='Recharge Denomination'][contains(normalize-space(),'100')] 
+    TextInPackage: 
+       findBy: xpath
+       locator: //p[contains(text(),'Virgin Mobile Saudi Consortium LLC brings you the ')]
+    nationalCall: 
+       findBy: xpath
+       locator: //th[normalize-space()='InternationalCalls']
+    sms: 
+       findBy: xpath
+       locator: //th[normalize-space()='SMS Rates']
+    Landline: 
+       findBy: xpath
+       locator: //th[normalize-space()='Landline']
+    BonusText: 
+       findBy: xpath
+       locator: //div[@class='margb-50']
+    Offerscreen: 
+       findBy: xpath
+       locator: //span[normalize-space()='FRiENDi mobile numbers']
+    NomatterText: 
+       findBy: xpath
+       locator: //div[@id='international_link_tab_container']
+    HelloText: 
+       findBy: xpath
+       locator: //div[contains(text(),'Local SMS')]
+    DialVatText: 
+       findBy: xpath
+       locator: //div[@class='white-page']
+    HotOffers:
+       findBy: xpath
+       locator: //div[@id='hotOffer-lnk']
+    HotOfferpage:
+       findBy: xpath
+       locator: //div[normalize-space()='Bundelha Plans']

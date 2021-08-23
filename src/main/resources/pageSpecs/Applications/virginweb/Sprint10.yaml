@@ -1,0 +1,83 @@
+timeout: 10
+
+expectedTitle: contentcloud
+
+elements:
+    PlanandProductAgain:
+        findBy: xpath
+        locator: //span[contains(text(),'Plans and Products')]
+    Rates:
+        findBy: xpath
+        locator: //li[@id='menu-item-26130']//a[normalize-space()='International Rates']
+    OffersPage:
+        findBy: xpath
+        locator: //div[@id='prepaid-lnk']
+    VatText1:
+        findBy: xpath
+        locator: //div[@id='prepaid-tab']//li[contains(text(),'is applied at the time of recharge or through tran')]
+    BundhelaPlans:
+        findBy: xpath
+        locator: //div[normalize-space()='Bundelha Plans']
+    FeesVerify:
+        findBy: xpath
+        locator: //*[@id="prepaid-tab"]//li[contains(text(),'Fees')]
+    sarVerify:
+        findBy: xpath
+        locator: //*[@id="prepaid-tab"]//li[contains(text(),'SAR')]
+    DialVerify:
+        findBy: xpath
+        locator: //strong[contains(text(),'*108#')]
+    ValidityBundhela:
+        findBy: xpath
+        locator: //*[@id="prepaid-tab"]//li[contains(text(),'Validity')]
+    NationalMin:
+        findBy: xpath
+        locator: //div[normalize-space()='National Minutes']
+    FeesNationalMins:
+        findBy: xpath
+        locator: //*[@id="prepaid-tab"]//div[normalize-space()='National Minutes']//li[contains(text(),'Fees')]
+    Postpaid:
+        findBy: xpath
+        locator: //div[@id='postpaid-lnk']
+    StandardPricing:
+        findBy: xpath
+        locator: //div[normalize-space()='Standard Package']
+    countries:
+        findBy: xpath
+        locator: //select[@id='slct_countries']
+    ClickRoaming:
+        findBy: xpath
+        locator: //li[@id='menu-item-26129']//a[normalize-space()='International Roaming']
+    DataRoaming:
+        findBy: xpath
+        locator: //div[@class='box-title']
+    TableRoaming:
+        findBy: xpath
+        locator: //th[normalize-space()='Operators']
+    TableEmptyRoaming:
+        findBy: xpath
+        locator: //div[@data-title='Operators']
+    FrendiPcLICK:
+       findBy: xpath
+       locator: //li[@id='menu-item-34277']//a[normalize-space()='FRiENDi package']
+    PACKAGERoaming:
+       findBy: xpath
+       locator: //div[@class='packageBtnCell']
+    DataClick:
+       findBy: xpath
+       locator: //div[@id='data-lnk']
+    DataBundleFrendi:
+       findBy: xpath
+       locator: //div[normalize-space()='Data Bundles']
+    DatafeeFrendi:
+       findBy: xpath
+       locator: //*[@id="data-tab"]//li[contains(text(),'Fees')]
+    DataVerifyFrendi:
+       findBy: xpath
+       locator: //*[@id="burger-btn"]
+    vatVerifyFrendi:
+       findBy: xpath
+       locator: //div[@id='data-tab']//li[contains(text(),'is applied at the time of recharge or through tran')]
+    NightTimeVerifyFrendi:
+       findBy: xpath
+       locator: //div[@id='data-tab']//li[1]

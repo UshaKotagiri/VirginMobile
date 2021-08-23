@@ -1,0 +1,26 @@
+timeout: 10
+
+expectedTitle: contentcloud
+
+elements:
+   whyVirginTab:
+      findBy: xpath
+      locator: (//a[@href="https://staging.virginmobile.sa/en/why-virgin-mobile/"])[1]
+   bottomFooter:
+      findBy: xpath
+      locator: //*[@id="footer-bottom-menu"]
+   topLeftCornerLogo:
+      findBy: xpath
+      locator: (//*[@href="https://staging.virginmobile.sa/en/"])[1]
+   whyVirginTextBanner:
+      findBy: xpath
+      locator: (//div[@class="container"])[2]
+   listOfQuaterTabs:
+      findBy: xpath
+      locator: //*[@class="right-section"]
+   quaterButtons:
+      findBy: xpath
+      locator: //*[@class="quarter-section"]
+   jpgPage:
+      findBy: xpath
+      locator: //*[@src="https://staging.virginmobile.sa/web/media/2020/06/prepaid_bundelha_citc_card_en-1.png"]

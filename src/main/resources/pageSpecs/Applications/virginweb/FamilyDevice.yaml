@@ -1,0 +1,63 @@
+timeout: 10
+
+expectedTitle: contentcloud
+
+elements:
+    plnproduct:
+        findBy: xpath
+        locator: //span[contains(text(),'Plans and Products')]
+    familyt:
+        findBy: xpath
+        locator: //li[@id='menu-item-30055']//a[contains(text(),'FAMILY TAG DEVICE')]
+    joinnow1:
+        findBy: xpath
+        locator: //div[@class='customer-box-btn-area']//a[@class='btn btn-primary'][contains(text(),'JOIN NOW')]
+    download:
+        findBy: xpath
+        locator: //a[contains(text(),'Download app')]
+    hello:
+        findBy: xpath
+        locator: //div[contains(text(),'HELLO!')]   
+    search:
+        findBy: xpath
+        locator: //div[@class='tab_head active']
+    BannerFamily:
+        findBy: xpath
+        locator: //span[contains(text(),'FAMILY')]
+    imageFamily:
+        findBy: xpath
+        locator: //body//img[2]
+    TextFamily:
+        findBy: xpath
+        locator: //div[@class='tag-banner-title']
+    BasicPLANFamily:
+        findBy: xpath
+        locator: //div[@class='basic-plan-box-title']
+    WhatItIsfrFamily:
+        findBy: xpath
+        locator: //div[@class='family-tag-box-title'][contains(text(),'WHAT IS IT FOR ?')]
+    imageFamily:
+        findBy: xpath
+        locator: //body//img[2]
+    downloadAppMob:
+        findBy: xpath
+        locator: //a[contains(text(),'Download app')]
+    TextLabel1:
+        findBy: xpath
+        locator: //div[@class='customer-box-details'][contains(text(),'User can add one or more device to their account using Virgin Mobile App')]
+    appStore:
+        findBy: xpath
+        locator: //a[@class='btn_appstore']
+    googleStore:
+        findBy: xpath
+        locator: //a[@class='btn_playstore']
+    NewCustomer:
+        findBy: xpath
+        locator: //div[@class='customer-box-title'][contains(text(),'For new customers')]
+    virginCustomer:
+        findBy: xpath
+        locator: //div[@class='customer-box-title'][contains(text(),'For Virgin Mobile customers')]
+    MegastoreText:
+        findBy: xpath
+        locator: //div[@class='virgin-mega-desc']
+    

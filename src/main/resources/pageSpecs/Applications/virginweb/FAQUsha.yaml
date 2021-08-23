@@ -1,0 +1,35 @@
+timeout: 10
+
+expectedTitle: FAQ
+
+elements:
+   helpNSupportTab:
+      findBy: xpath
+      locator: //*[@id="menu-item-24069"]
+   listOfOptionsInHelpNSupport:
+      findBy: xpath
+      locator: //*[@id="menu-item-24069"]//li
+   headerHomePage:
+      findBy: xpath
+      locator: //*[@class="header-nav-list second-nav"]
+   bannerListHeading:
+      findBy: xpath
+      locator: //div[@class="owl-stage"]
+   breadcrumbs:
+      findBy: xpath
+      locator: //*[@class="owl-dots"]//button
+   activeDot:
+      findBy: xpath
+      locator: //*[@class="owl-dot active"]
+   bannerDetails:
+      findBy: xpath
+      locator: //*[@class="btn btn-primary btn-slider"]
+   searchButton:
+      findBy: xpath
+      locator: //*[@class="btn btn-secondary"]
+   searchTab:
+      findBy: xpath
+      locator: //*[@id="fragment"]
+   clickSearch:
+      findBy: xpath
+      locator: //*[@class="search-btn"]

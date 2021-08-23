@@ -1,0 +1,8 @@
+timeout: 10
+
+expectedTitle: contentcloud
+
+elements:
+   whyVirginTab:
+      findBy: xpath
+      locator: (//a[@href="https://staging.virginmobile.sa/en/why-virgin-mobile/"])[1]

@@ -1,0 +1,139 @@
+timeout: 10
+
+expectedTitle: contentcloud
+
+elements:
+    TelecomService:
+        findBy: xpath
+        locator: //a[contains(text(),'Terms for Offering Telecom Services')]
+    Complaint:
+        findBy: xpath
+        locator: //span[contains(text(),'Complaints')]
+    Banner:
+        findBy: xpath
+        locator: //p[contains(text(),"Striving to retain the Company customers as the fi")]
+    Logo:
+        findBy: xpath
+        locator: //div[@class='header-page-title']//div[@class='container']
+    ComplaintText:
+        findBy: xpath
+        locator: //span[normalize-space()='Complaints']
+    CompanyHandling:
+        findBy: xpath
+        locator: //h2[normalize-space()='A Statement on Customer Complaint Handling Policy']
+    CustomerComplaint:
+        findBy: xpath
+        locator: //h2[normalize-space()='Customers Complaints-Handling Policy']
+    Rights:
+        findBy: xpath
+        locator: //a[contains(text(),'The Customer’s Rights and Responsibilities')]
+    ComplaintPage:
+        findBy: xpath
+        locator: //span[normalize-space()='tickets']
+    Homepage:
+        findBy: xpath
+        locator: //img[@alt='Virgin Mobile KSA']
+    RaiseComplaint:
+        findBy: xpath
+        locator: //a[normalize-space()='Raise a complaint']
+    Header:
+        findBy: xpath
+        locator: //span[normalize-space()='tickets']
+    RightTab:
+        findBy: xpath
+        locator: //a[contains(text(),'The Customer’s Rights and Responsibilities')]
+    RightsPage:
+        findBy: xpath
+        locator: //span[normalize-space()='Customers']
+    VerifyRaiseComplaintpage:
+        findBy: xpath
+        locator: //h2[normalize-space()='Create Ticket']
+    Chat:
+        findBy: xpath
+        locator: //i[@class='directChatIcon']
+    ChatScreen:
+        findBy: xpath
+        locator: //div[@class='cx-title']
+    OurApp:
+        findBy: xpath
+        locator: //i[@class='ourAppIcon']
+    Store:
+        findBy: xpath
+        locator: //i[@class='ourStoresIcon']
+    Storepage: 
+        findBy: xpath
+        locator: //input[@id='pac-input']
+    ourAppPage:
+        findBy: xpath
+        locator: //div[normalize-space()='HELLO!']
+    ChatIconatBottom:
+        findBy: xpath
+        locator: //i[@class='directChatIcon']
+    iconOnComplaint:
+        findBy: xpath
+        locator: //div[@class='header-page-title']//div[@class='container']
+    ContactUs:
+        findBy: xpath
+        locator: //i[@class='contactUsIcon']
+    Friendlytext:
+        findBy: xpath
+        locator: //p[contains(text(),'Please reach out here any time of the day and nigh')]
+    ContactText:
+        findBy: xpath
+        locator: //a[@href='https://virginmobile.sa/en/help-support/contact-us/']
+    ConactPage:
+        findBy: xpath
+        locator: //span[normalize-space()='Contact']
+    NumberPrefix:
+        findBy: xpath
+        locator: //span[@class='country-code-init']
+    verification:
+        findBy: xpath
+        locator: //input[@id='send-verification-code']
+    Error:
+        findBy: xpath
+        locator: //label[normalize-space()='Enter a Valid mobile number']
+    Progressbar:
+        findBy: xpath
+        locator: //div[normalize-space()='You Number']
+    SubmitButtonAfterSubject:
+        findBy: xpath
+        locator: //input[@id='submit_complaint_form']
+    EnteredNumber:
+        findBy: xpath
+        locator: //input[@id='complaint_mobile_number']
+    ContactLink:
+        findBy: xpath
+        locator: //span[normalize-space()='Contact']
+    SubmitAfterNumber:
+        findBy: xpath
+        locator: //input[@id='send-verification-code']
+    OTPCode:
+        findBy: xpath
+        locator: //label[contains(text(),'Enter the one-time-passowrd')]
+    SubmitAfterOtp:
+        findBy: xpath
+        locator: //input[@id='send_otp']
+    Subject:
+        findBy: xpath
+        locator: //label[@for='complaint_subject']
+    Category:
+        findBy: xpath
+        locator: //select[@id='complaint_category']
+    SubCategory:
+        findBy: xpath
+        locator: //select[@id='complaint_subcategory']
+    EmailAddress:
+        findBy: xpath
+        locator: //label[contains(text(),'Email ID (optional)')]
+    OptionalNumber:
+        findBy: xpath
+        locator: //label[contains(text(),'Another Contact No (optional)')]
+    ComplaintSubmissionPage:
+        findBy: xpath
+        locator: //div[contains(text(),'Confirmation')]
+    ladder:
+        findBy: xpath
+        locator: //div[contains(text(),'Ticket details')]
+    
+        

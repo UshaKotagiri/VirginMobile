@@ -1,0 +1,84 @@
+timeout: 10
+
+expectedTitle: contentcloud
+
+elements:
+    PlanandProduct:
+        findBy: xpath
+        locator: //span[contains(text(),'Plans and Products')]
+    WhyVirginMobile:
+        findBy: xpath
+        locator: //li[@id='menu-item-17']//a[normalize-space()='Why Virgin Mobile']
+    HelpAndSupport:
+        findBy: xpath
+        locator: //li[@id='menu-item-24069']//span[contains(text(),'Help & Support')]
+    Language: 
+        findBy: xpath
+        locator: //li[@id='menu-item-26162-ar']//a[contains(text(),'العربية')]
+    GetPlanBtn:
+        findBy: xpath
+        locator: //label[@id='monthly-slide2']//button[@class='btn btn-primary'][normalize-space()='GET THIS PLAN']
+    GetHelp:
+        findBy: xpath
+        locator: //a[@href='https://staging.virginmobile.sa/en/faq_category/number']
+    EligibiltyForm:
+        findBy: xpath
+        locator: //span[contains(text(),'ELIGIBILITY')]
+    NumberList:
+        findBy: xpath
+        locator: //li[@class='number_list_item number-itm'] 
+    BookItNow:
+        findBy: xpath
+        locator: //button[text()='BOOK IT NOW']
+    IDeligibilty:
+        findBy: xpath
+        locator: //select[@name='idtype']
+    IDnumber:
+        findBy: xpath
+        locator: //input[@id='id_number']
+    Nationality:
+        findBy: xpath
+        locator: //select[@name='Nationality']
+    CurrentCity:
+        findBy: xpath
+        locator: //select[@name='city']
+    Continue:
+        findBy: xpath
+        locator: //input[@value='CONTINUE']
+    CreateAccount:
+        findBy: xpath
+        locator: //span[normalize-space()='CREATE']
+    LegalStuff:
+        findBy: xpath
+        locator: //label[normalize-space()='I agree with the']
+    EmailAddress:
+        findBy: xpath
+        locator: //input[@id='email']
+    Password:
+        findBy: xpath
+        locator: //input[@id='Password']
+    MaskedBtn:
+        findBy: xpath
+        locator: //div[@class='icon showPass']
+    SocialMedia:
+        findBy: xpath
+        locator: //div[@class='social']
+    Facebook:
+        findBy: xpath
+        locator: //button[normalize-space()='Facebook']
+    Twitter:
+        findBy: xpath
+        locator: //button[normalize-space()='Twitter']
+    Google:
+        findBy: xpath
+        locator: //button[normalize-space()='GOOGLE+']
+    NumberDropdown:
+        findBy: xpath
+        locator: //i[@class='arrow']
+    NumberInDD:
+        findBy: xpath
+        locator: //[@class='headerBgNew']//div[@class='header-container expanded']//div[@class='progress-step-container']//div[@class='container']/div[@class='progress-step-list']
+    PlanInDD:
+        findBy: xpath
+        locator: //div[@class='step active active']//div[@class='step-info']
+   

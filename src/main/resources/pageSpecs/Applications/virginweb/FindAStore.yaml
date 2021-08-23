@@ -1,0 +1,55 @@
+timeout: 10
+
+expectedTitle: contentcloud
+
+elements:
+    HelpsupportVirgin:
+        findBy: xpath
+        locator: //li[@id='menu-item-24069']//span[contains(text(),'Help & Support')]
+    FindastoreVirgin:
+        findBy: xpath
+        locator: //li[@id='menu-item-24105']//a[contains(text(),'Find a Store')]
+    ClickonLocation:
+        findBy: xpath
+        locator: //input[@id='pac-input']
+    QuickVerify:
+        findBy: xpath
+        locator: //li[@id='menu-item-34994']//a[contains(text(),'QUICK TOP-UP')]
+    ClickonLiveLocation:
+        findBy: xpath
+        locator: //div[@id='detect_location']
+    hamburgerFAStore:
+        findBy: xpath
+        locator: //div[@id='search-header-icon']
+    FamilyBtn:
+        findBy: xpath    
+        locator: //span[contains(text(),'Family Tag')]
+    doneVerify:
+        findBy: xpath    
+        locator: //a[contains(text(),'About Virgin Mobile')]
+    recharge:
+        findBy: xpath    
+        locator: //div[@class='filter-options']//div[2]//label[1]//i[1]
+    SimBtn:
+        findBy: xpath    
+        locator: //div[3]//label[1]//i[1]
+    BackHB:
+        findBy: xpath    
+        locator: //div[@id='search-header-icon']
+    whyVirgin:
+        findBy: xpath    
+        locator: //li[@id='menu-item-17']//a[contains(text(),'Why Virgin Mobile')]
+    joinNowTab:
+        findBy: xpath    
+        locator: //a[contains(text(),'Join Now')]  
+    PortNumber: 
+        findBy: xpath    
+        locator: //div[contains(text(),'Port your number')]
+    countrycodeclick:
+        findBy: xpath    
+        locator: //select[contains(@name,'country_select')]
+    doneBtn:
+        findBy: xpath    
+        locator: //input[@id='btnDone']
+    
+        

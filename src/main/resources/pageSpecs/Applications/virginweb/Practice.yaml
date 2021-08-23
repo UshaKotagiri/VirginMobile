@@ -1,0 +1,29 @@
+timeout: 10
+
+expectedTitle: contentcloud
+
+elements: 
+   joinNowButton:
+      findBy: xpath
+      locator: //li[@class="nav-itm nav-itm-join"]/*[@href="https://staging.virginmobile.sa/join"]
+   listOfNumbers:
+      findBy: xpath
+      locator: //*[@class="number-pieces has-type"]
+   virginLogoLeftCorner:
+      findBy: xpath
+      locator: //*[@class="main-logo-img"]
+   searchTabForNumber:
+      findBy: xpath
+      locator: //*[@id="fragment"]
+   failureMessage:
+      findBy: xpath
+      locator: //*[@class=" message small failure"]
+   clickOnSearch:
+      findBy: xpath
+      locator: //*[@class="search-btn"]
+   clickedNumber:
+      findBy: xpath
+      locator: //div[@class="number"]//span[@class="number-pieces has-type"]
+   selectedNumberPopup:
+      findBy: xpath
+      locator: //*[@class="selected-number-block"]

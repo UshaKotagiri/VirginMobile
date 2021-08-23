@@ -1,0 +1,91 @@
+timeout: 10
+
+expectedTitle: contentcloud
+
+elements:
+    EmailAddress:
+        findBy: xpath
+        locator: //label[contains(text(),'Email address')]
+    Subscribe:
+        findBy: xpath
+        locator: //input[@id='newsletter_submit']
+    CreateYourPlan:
+        findBy: xpath
+        locator: //button[@id='custom-plan-btn']
+    FooterText:
+        findBy: xpath
+        locator: //div[contains(text(),'MAKING YOUR LIFE MORE MOBILE')]
+    AboutVirginMob:
+        findBy: xpath
+        locator: //a[contains(text(),'About Virgin Mobile')]
+    TermsandCondition:
+        findBy: xpath
+        locator: //a[contains(text(),'Terms & Conditions')]
+    PrivacyPolicy:
+        findBy: xpath
+        locator: //a[contains(text(),'Privacy Policy')]
+    Banner:
+        findBy: xpath
+        locator: //h2[contains(text(),'WHY VIRGIN MOBILE?')]
+    AboutMobTextVerify:
+        findBy: xpath
+        locator: //div[contains(text(),'Keep up-to-date with new offers from Virgin Mobile')]
+    YouTubeVerify:
+        findBy: xpath
+        locator: //a[@class='ftr-lnk youtube']
+    TwitterVerify:
+        findBy: xpath
+        locator: //a[@class='ftr-lnk twitter']
+    GooglePlaystore:
+        findBy: xpath
+        locator: //a[@class='ftr-lnk twitter']
+    GooglePlayRedirected:
+        findBy: xpath
+        locator: //span[contains(text(),'Virgin Mobile KSA')]
+    FacebookVerify:
+        findBy: xpath
+        locator: //a[@class='ftr-lnk twitter']
+    InstagramVerify:
+        findBy: xpath
+        locator: //a[@class='ftr-lnk instagram']
+    AllRightsReservedText:
+        findBy: xpath
+        locator: //div[@class='copywrite']
+    SucessmsgVerify:
+        findBy: xpath
+        locator: //div[@class='success-box-icon']
+    PromotonPlan:
+        findBy: xpath
+        locator: //label[@id='monthly-slide1']
+    DataInPlan:
+        findBy: xpath
+        locator: //label[@id='monthly-slide1']//button[@class='btn btn-primary'][normalize-space()='GET THIS PLAN']
+    JustSim:
+        findBy: xpath
+        locator: //div[normalize-space()='A PLAN FOR YOU']
+    SubscribeButton:
+        findBy: xpath
+        locator: //input[@id='newsletter_submit']
+    ErrorMessage:
+        findBy: xpath
+        locator: //div[@class='success-box-icon']
+    Banner:
+        findBy: xpath
+        locator: //img[@alt='Virgin Mobile KSA']
+    Title:
+        findBy: xpath
+        locator: //div[normalize-space()='Turn a lucky number or memorable digits into your very own Virgin Mobile number. Hundreds of numbers to choose from.']
+    playstore:
+        findBy: xpath
+        locator: //a[normalize-space()='App Store']
+    TermsCondition:
+        findBy: xpath
+        locator: //a[normalize-space()='Terms & Conditions']
+    AboutVirgin:
+        findBy: xpath
+        locator: //a[normalize-space()='About Virgin Mobile']
+    customerRights:
+        findBy: xpath
+        locator: //a[normalize-space()='Customers Rights and Responsibilities']
+   
+    

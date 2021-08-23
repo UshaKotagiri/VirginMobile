@@ -1,0 +1,74 @@
+timeout: 10
+
+expectedTitle: contentcloud
+
+elements:
+    helpAndSupportClick:
+        findBy: xpath
+        locator: //li[@id='menu-item-24069']//span[contains(text(),'Help & Support')]
+    FaqHelpClick:
+        findBy: xpath
+        locator: //li[@id='menu-item-24070']//a[contains(text(),'FAQ')]
+    SearchButton:
+        findBy: xpath
+        locator: //input[@class='search-btn']
+    SearchBttnvalue:
+        findBy: xpath
+        locator: //input[@id='searchform2']
+    talkToUs:
+        findBy: xpath
+        locator: //a[contains(text(),'Talk to us')] 
+    ContactBttnclick:
+        findBy: xpath
+        locator: //li[@id='menu-item-24071']//a[contains(text(),'Contact Us')]
+    topUpQuick1:
+        findBy: xpath
+        locator: //li[@id='menu-item-34994']//a[contains(text(),'QUICK TOP-UP')]
+    SubmitBttnclick:
+        findBy: xpath
+        locator: //input[@id='c_submit']
+    NameErrorMsg:
+        findBy: xpath
+        locator: //label[@id='c_name-error']
+    MobileBttnclick:
+        findBy: xpath
+        locator: //label[contains(text(),'Mobile Number')]
+    nameBttnclick: 
+        findBy: xpath
+        locator: //label[contains(text(),'Name')]
+    EmailBttnclick:
+        findBy: xpath
+        locator: //label[contains(text(),'Email')]
+    subjectBttnclick:
+        findBy: xpath
+        locator: //label[contains(text(),'Subject')]
+    MessageBttnclick:
+        findBy: xpath
+        locator: //textarea[@id='c_message']
+    chatbox:
+        findBy: xpath
+        locator: //a[@class='chat_icon']
+    minimised:
+        findBy: xpath
+        locator: //button[@class='cx-icon cx-button-minimize']//*[local-name()='svg']
+    minimisedagain:
+        findBy: xpath
+        locator: //button[@class='cx-icon cx-button-minimize']
+    closeChatBox:
+        findBy: xpath
+        locator: //*[name()='path' and contains(@class,'cx-svg-ico')]
+    cancelInClose:
+        findBy: xpath
+        locator: //button[@class='cx-close-confirm cx-btn cx-btn-primary i18n']
+    SuccessfulClick:
+        findBy: xpath
+        locator: //div[contains(text(),'Your request submitted successfully.')]
+    InvalidText:
+        findBy: xpath
+        locator: //a[normalize-space()='Talk to us']
+    searchedPage:
+        findBy: xpath
+        locator: //a[normalize-space()='Family Tag Device']
+      
+        
+    

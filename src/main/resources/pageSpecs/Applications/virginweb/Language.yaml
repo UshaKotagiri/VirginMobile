@@ -1,0 +1,18 @@
+timeout: 10
+
+expectedTitle: contentcloud
+
+elements:
+    Arabic:
+        findBy: xpath
+        locator: //li[@id='menu-item-26162-ar']//a[contains(text(),'العربية')]
+    ArabicVerify:
+        findBy: xpath
+        locator: //li[@id='menu-item-25131']//span[contains(text(),'باقات سوبرستار')]
+    English:
+        findBy: xpath
+        locator: //li[@id='menu-item-26163-en']//a[normalize-space()='English']
+    EnglishVerify:
+        findBy: xpath
+        locator: //span[normalize-space()='Plans and Products']
+        

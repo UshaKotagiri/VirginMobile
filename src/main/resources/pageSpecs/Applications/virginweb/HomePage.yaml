@@ -1,0 +1,114 @@
+timeout: 10
+
+expectedTitle: contentcloud
+
+elements:
+    planAndProduct:
+        findBy: xpath
+        locator: //span[contains(text(),'Plans and Products')] 
+    DifferentLanguage:
+        findBy: xpath
+        locator: //li[@id='menu-item-24097']//span[contains(text(),'الدعم و المساعدة')]
+    LocationInFindstore:
+        findBy: xpath
+        locator: //input[@id='pac-input']
+    VirginMobile:
+        findBy: xpath
+        locator: //span[normalize-space()='Virgin Mobile']
+    plan:
+        findBy: xpath
+        locator: //li[@id='menu-item-25770']//a[contains(text(),'Plans')]  
+    TopUpVerification:
+        findBy: xpath
+        locator: //span[contains(text(),'Top-up')]
+    offers:
+        findBy: xpath
+        locator: //li[@id='menu-item-25786']//a[contains(text(),'Other offers')]  
+    whyVirginVerify:
+        findBy: xpath
+        locator: //div[@class='header-page-title']//div[@class='container']
+    intrrates:
+        findBy: xpath
+        locator: //li[@id='menu-item-26130']//a[contains(text(),'International Rates')] 
+    PlansVerify:
+        findBy: xpath
+        locator: //span[normalize-space()='SUPERSTAR']
+    intrroam:
+        findBy: xpath
+        locator: //li[@id='menu-item-26129']//a[contains(text(),'International Roaming')]       
+    familytag:
+        findBy: xpath
+        locator: //li[@id='menu-item-30055']//a[contains(text(),'FAMILY TAG DEVICE')]  
+    frendi:
+        findBy: xpath
+        locator: //li[@id='menu-item-34277']//a[contains(text(),'FRiENDi package')]  
+    helpandsupport:
+        findBy: xpath
+        locator: //li[@id='menu-item-24069']//span[contains(text(),'Help & Support')]  
+    faq:
+        findBy: xpath
+        locator: //li[@id='menu-item-24070']//a[contains(text(),'FAQ')] 
+    contact:
+        findBy: xpath
+        locator: //li[@id='menu-item-24071']//a[contains(text(),'Contact Us')]
+    findastore:
+        findBy: xpath
+        locator: //li[@id='menu-item-24105']//a[contains(text(),'Find a Store')]
+    whyvirginmob:
+        findBy: xpath
+        locator: //li[@id='menu-item-17']//a[contains(text(),'Why Virgin Mobile')]
+    difflanguage:
+        findBy: xpath
+        locator: //li[@id='menu-item-26162-ar']//a
+    topup:
+        findBy: xpath
+        locator: //li[@id='menu-item-34994']//a[contains(text(),'QUICK TOP-UP')]
+    joinus:
+        findBy: xpath
+        locator: //a[contains(text(),'Join Now')]  
+    HamburgerInMob:
+        findBy: xpath
+        locator: //i[@id='burger-btn']
+    planAndProductham:
+        findBy: xpath
+        locator: //span[contains(text(),'Plans & products')]
+    planham:
+        findBy: xpath
+        locator: //body/div[12]/div[1]/ul[1]/li[2]/ul[1]/li[1]/a[1]
+    offerHam:
+        findBy: xpath
+        locator: //body/div[3]/div[1]/ul[1]/li[2]/ul[1]/li[2]/a[1]
+    InternationalHam:
+        findBy: xpath
+        locator: //body/div[3]/div[1]/ul[1]/li[2]/ul[1]/li[4]/a[1]  
+    InternationalRoamHam:
+        findBy: xpath
+        locator: //body/div[3]/div[1]/ul[1]/li[2]/ul[1]/li[3]/a[1]
+    FamilyHam:
+        findBy: xpath
+        locator: //body/div[3]/div[1]/ul[1]/li[2]/ul[1]/li[5]/a[1]
+    FreNDIhAM:
+        findBy: xpath
+        locator: //body/div[11]/div[1]/ul[1]/li[2]/ul[1]/li[6]/a[1]
+    HelpSupportHam:
+       findBy: xpath
+       locator: //body/div[11]/div[1]/ul[1]/li[4]/span[1]
+    FaqhAM:
+       findBy: xpath
+       locator: //body/div[11]/div[1]/ul[1]/li[4]/ul[1]/li[1]/a[1]
+    contactUsHam:
+       findBy: xpath
+       locator: //body/div[11]/div[1]/ul[1]/li[4]/ul[1]/li[2]/a[1]
+    FindaStoreHam:
+       findBy: xpath
+       locator: //body/div[11]/div[1]/ul[1]/li[4]/ul[1]/li[3]/a[1]
+    topUpHam:
+       findBy: xpath
+       locator: //body/div[11]/div[1]/ul[2]/li[3]/a[1]
+    joinNowHam:
+       findBy: xpath
+       locator: //a[contains(text(),'JOIN NOW')]
+        
+        
+           
+        

@@ -1,0 +1,45 @@
+timeout: 10
+
+expectedTitle: contentcloud
+
+elements:
+    Sar70Homepage:
+        findBy: xpath
+        locator: //label[@id='monthly-slide1']//img
+    Sar100Homepage:
+        findBy: xpath
+        locator: //label[@id='monthly-slide2']//img
+    Sar125Homepage:
+        findBy: xpath
+        locator: //label[@id='monthly-slide3']//img
+    PlanProduct:
+        findBy: xpath
+        locator: //span[contains(text(),'Plans & products')]
+    HelpSupport:
+        findBy: xpath
+        locator: //span[@class='menu-lnk has-sub'][normalize-space()='Help & Support']
+    TopUp:
+        findBy: xpath
+        locator: //a[@class='btn btn-primary topup']
+    Sar70Joinnow:
+        findBy: xpath
+        locator: //div[@id='plan-1']//img
+    Sar100Joinnow:
+        findBy: xpath
+        locator: //div[@id='plan-2']//img
+    Sar125Joinnow:
+        findBy: xpath
+        locator: //div[@id='plan-3']//img
+    NationalMinutes:
+        findBy: xpath
+        locator: //td[normalize-space()='National']
+    Hamburger:
+        findBy: xpath
+        locator: //i[@id='burger-btn']
+    CreatePlan:
+        findBy: xpath
+        locator: //button[normalize-space()='CREATE YOUR PLAN']
+    close:
+        findBy: xpath
+        locator: //i[@id='burger-btn']
+     

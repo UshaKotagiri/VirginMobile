@@ -1,0 +1,144 @@
+timeout: 10
+
+expectedTitle: contentcloud
+
+elements:
+   hamburger:
+     findBy: xpath
+     locator: //i[@id='burger-btn']
+   WhyVirgin:
+     findBy: xpath
+     locator: (//a[.='Why Virgin Mobile'])[2]
+   Paymentdropdown:
+      findBy: xpath
+      locator: //div[@class='progress-title']
+   GetHelp:
+      findBy: xpath
+      locator: (//a[.='GET HELP'])[2]
+   HelpPage:
+      findBy: xpath
+      locator: //span[contains(text(),'HOW CAN WE')]
+   payforstuffPage:
+      findBy: xpath
+      locator: //span[contains(text(),'PAY FOR')]
+   DoneButton:
+      findBy: xpath
+      locator: //input[@class='btn btn-primary']
+   planis:
+     findBy: xpath
+     locator: //span[.='Plans and Products']
+   email:
+     findBy: xpath
+     locator: //input[@id='email']
+   pass: 
+     findBy: xpath
+     locator: //input[@id='password']
+   createAccount:
+     findBy: xpath
+     locator: //input[@type="button" and @value='CREATE ACCOUNT']
+   wrong:
+      findBy: xpath
+      locator: //small[contains(text(),'wrong credit card format')]
+   ACSpage:
+      findBy: xpath
+      locator: //h1[.='ACS Emulator']
+   submitBt:
+      findBy: xpath
+      locator: //*[@id="ContainerContent"]/center/form/table/tbody/tr[13]/td/input
+   PayOnline:
+      findBy: xpath
+      locator: //button[normalize-space()='Pay now']
+   cardtext:
+      findBy: xpath
+      locator: //label[contains(text(),'Card Number')]
+   GetThisPlanMob:
+     findBy: xpath
+     locator: //button[.='GET THIS PLAN']
+   visitvisa:
+     findBy: xpath
+     locator: //select[@name='idtype']
+   IdNumber:
+     findBy: xpath
+     locator: //input[@id='id_number']
+   nationality:  
+     findBy: xpath
+     locator: //select[@name='Nationality']
+   congrats:  
+     findBy: xpath
+     locator: //div[.='CONGRATULATIONS']
+   Absherpa:
+     findBy: xpath
+     locator: //span[contains(text(),'Absher')]
+   city:
+     findBy: xpath
+     locator: //select[@name='city']
+   continueButton:
+     findBy: xpath
+     locator: //input[@type='button' and @value='CONTINUE']
+   check:
+     findBy: xpath
+     locator: (//input[@class='btn btn-primary'])/..
+   Absherlogin:
+     findBy: xpath
+     locator: //button[contains(text(),'Absher Login')]
+   card:
+      findBy: xpath
+      locator: //input[@id='card_number']
+   cardholdertext:
+      findBy: xpath
+      locator: //label[contains(text(),'Card Holder')]
+   logintoSP:
+      findBy: xpath
+      locator: //div[contains(text(),'Login to SP')]
+   returnDummy:
+      findBy: xpath
+      locator: //a[@id='lbtn_dummyToken']
+   cardholder:
+      findBy: xpath
+      locator: //input[@id='card_holder_name'] 
+   PlansMob:
+     findBy: xpath
+     locator: (//a[.='Plans'])[2]
+   pick:
+     findBy: xpath
+     locator: //li[@class='number_list_item number-itm']
+   picknumberpage: 
+     findBy: xpath
+     locator: (//span[.='057'])[3]  
+   bookitnow:
+     findBy: xpath
+     locator: //button[text()='BOOK IT NOW']/..
+   eligbbility:
+     findBy: xpath
+     locator: //span[contains(text(),'CHECK')]
+   expiryText:
+      findBy: xpath
+      locator: //label[contains(text(),'Expiry Date (MM/YY)')]
+   expirydate: 
+      findBy: xpath
+      locator: //input[@id='expiry_date_for_form']
+   cvvText:
+      findBy: xpath
+      locator: //label[contains(text(),'CVC')]
+   getMeSIm:
+      findBy: xpath
+      locator: //label[contains(text(),'Get me the SIM delivered')]
+   cvv:
+      findBy: xpath
+      locator: //input[@id='card_security_code']
+   gettingYourSim:
+      findBy: xpath
+      locator: //span[contains(text(),'GETTING')]
+   checkboxSim:
+      findBy: xpath
+      locator: //label[contains(text(),'I have Virgin Mobile SIM')]
+   simText:
+      findBy: xpath
+      locator: //input[@id='sim_number']
+   continuebutton:
+      findBy: xpath
+      locator: //button[contains(text(),'Continue')
+      
+   
+  
+  

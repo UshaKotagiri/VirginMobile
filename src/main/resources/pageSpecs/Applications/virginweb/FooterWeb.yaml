@@ -1,0 +1,57 @@
+timeout: 10
+
+expectedTitle: contentcloud
+
+elements:
+   
+    About_VirginMobile:
+        findBy: xpath
+        locator: //a[contains(text(),'About Virgin Mobile')]
+    Virgin_Group:
+        findBy: xpath
+        locator: //a[contains(text(),'Virgin Group')]
+    Terms_Condition:
+        findBy: xpath
+        locator: //a[contains(text(),'Terms & Conditions')]
+    PrivacyPolicy:
+        findBy: xpath
+        locator: //a[contains(text(),'Privacy Policy')]
+    CustomerRight:
+        findBy: xpath
+        locator: //a[contains(text(),'Customers Rights and Responsibilities')]
+    DownloadApp:
+        findBy: xpath
+        locator: //a[contains(text(),'Download App')]
+    CareerPage:
+        findBy: xpath
+        locator: //a[contains(text(),'Career page')]
+    YouTubeLink:
+        findBy: xpath
+        locator: //a[@class='ftr-lnk youtube']
+    TwitterLink:
+        findBy: xpath
+        locator: //a[@class='ftr-lnk twitter']
+    InstagramLink:
+        findBy: xpath
+        locator: //a[@class='ftr-lnk instagram']
+    FacebookLink:
+        findBy: xpath
+        locator: //a[@class='ftr-lnk facebook'] 
+    AboutPage_Verify:
+        findBy: xpath
+        locator: //span[contains(text(),'About')]
+    TermsCondition_Verify:                              
+        findBy: xpath
+        locator: //h2[contains(text(),'1. Our Agreement')]
+    Policy_verify:
+        findBy: xpath
+        locator: //span[contains(text(),'Policy')]  
+    Rights_Verify:
+        findBy: xpath
+        locator: //span[contains(text(),'Rights and Responsibilities')] 
+    Download_Verify:
+        findBy: xpath
+        locator: //div[contains(text(),'HELLO!')]   
+    Career_Verify:
+        findBy: xpath
+        locator: //div[contains(text(),'Why work for Virgin Mobile ?')] 

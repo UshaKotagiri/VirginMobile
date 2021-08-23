@@ -1,0 +1,67 @@
+timeout: 10
+
+expectedTitle: contentcloud
+
+elements:
+    planandprodct:
+        findBy: xpath
+        locator: //span[contains(text(),'Plans and Products')]
+    otherOffrs:
+        findBy: xpath
+        locator: //li[@id='menu-item-25786']//a[contains(text(),'Other offers')]
+    prepaid:
+        findBy: xpath
+        locator: //div[@id='prepaid-lnk']
+    postpaid:
+        findBy: xpath
+        locator: //div[@id='postpaid-lnk']
+    packagebtn:
+        findBy: xpath
+        locator: //div[@class='plan-box-tab darkWrapper']
+    StandardPackage:
+        findBy: xpath
+        locator: //div[normalize-space()='Standard Package']
+    PackageContent:
+        findBy: xpath
+        locator: //*[@id="postpaid-tab"]
+    MonthPostpaid:
+        findBy: xpath
+        locator: //div[@class='tab-breif-intro']
+    Premium:
+        findBy: xpath
+        locator: //div[normalize-space()='Premium Package']
+    PremiumContent:
+        findBy: xpath
+        locator: //div[@id='postpaid-tab']
+    MonthlyAllowance:
+        findBy: xpath
+        locator: //div[@class='Monthly']
+    DataBundle:  
+        findBy: xpath
+        locator: //div[@class='currency_symbol']
+    ExclusiveText:
+        findBy: xpath
+        locator: //div[@class='breif-table']
+    VATDialText:
+        findBy: xpath
+        locator: //span[normalize-space()='15% VAT']
+    AboutVirginMob:
+        findBy: xpath
+        locator: //a[normalize-space()='About Virgin Mobile']
+    VirginGroup:
+        findBy: xpath
+        locator: //a[normalize-space()='Virgin Group']
+    PrivacyPolicy:
+        findBy: xpath
+        locator: //a[normalize-space()='Privacy Policy']
+    Sar15:
+        findBy: xpath
+        locator: //td[normalize-space()='Standard']
+    StandardRow:
+        findBy: xpath
+        locator: //div[normalize-space()='Standard Pricing']
+    
+     
+    
+       
+        

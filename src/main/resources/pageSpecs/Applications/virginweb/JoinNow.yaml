@@ -1,0 +1,202 @@
+timeout: 10
+
+expectedTitle: contentcloud
+
+elements:
+
+    close_welcomepopup:
+        findBy: xpath
+        locator: //div[contains(@data-id,'welcome')]   
+    Join_Button:
+        findBy: xpath
+        locator: //a[contains(@href,'https://staging.virginmobile.sa/join')]        
+    search_box_InEnglish:
+        findBy: xpath
+        locator: //input[contains(@placeholder,'Search for number')]         
+    search_box_InUrdu:
+        findBy: xpath
+        locator: //input[contains(@placeholder,'ابحث عن رقم')]        
+    English_Link:
+        findBy: xpath
+        locator: //span[text()='English']        
+    search_button:
+        findBy: xpath
+        locator: //input[contains(@class,'search-btn')]    
+    BookNow_Button:
+        findBy: xpath
+        locator: //button[text()='BOOK IT NOW']            
+    NumberLists:
+        findBy: xpath
+        locator: //li[@class='number_list_item number-itm']           
+    Number_Type:
+        findBy: xpath
+        locator: //div[contains(@class,'legend-name')]         
+    Number_Price:
+        findBy: xpath
+        locator: //div[contains(@class,'legend-price')]         
+    CoolNowFor_Text:
+        findBy: xpath
+        locator: //span[text()='COOL, NOW FOR']          
+    Progress_Title:
+        findBy: xpath
+        locator: //div[contains(@class,'progress-title')]         
+    Right_Arrow:
+        findBy: xpath
+        locator: //div[contains(@class,'arrow-right')]         
+    Left_Arrow:
+        findBy: xpath
+        locator: //div[contains(@class,'arrow-left')]         
+    Price_YourPlan:
+        findBy: xpath
+        locator: //div[contains(@class,'price-zone')]                  
+    GetPlan_Button:
+        findBy: xpath
+        locator: //div[@id='plan-2']//button[@class='btn btn-primary'][normalize-space()='Get this plan']         
+    GetPlan_70Button:
+        findBy: xpath
+        locator: //div[contains(@id,'plan-1')]//span[contains(text(),'Get this plan')]                        
+    ImageLink_250PopUp:
+        findBy: xpath
+        locator: //div[@id='plan-2']//img      
+    CreatePlan_Link:
+        findBy: xpath
+        locator: //div[contains(@id,'custom-plan-btn')]         
+    TextOnCreatePlanPopup:
+        findBy: xpath
+        locator: //div[text()='National Minutes / 2xSMS']         
+    National_Minute:
+        findBy: xpath
+        locator: //div[contains(@id,'item-VOICE-LCL-4')]           
+    Text_FreeData:
+        findBy: xpath
+        locator: //div[@class='label-separator']         
+    Dropdwon:
+        findBy: xpath
+        locator: //div[@class='point-header']        
+    Number_inDropdown:
+        findBy: xpath
+        locator: //div[@class='point-details']//span[@class='prefix'][contains(text(),'057')]            
+    Data:
+        findBy: xpath
+        locator: //div[contains(@id,'item-DATA-5')]        
+    GetPlan_OnPopupButton:
+        findBy: xpath
+        locator: //span[contains(text(),'GET THIS PLAN')]            
+    PackageCard_button:
+        findBy: xpath
+        locator: //div[@class='custom-plan-wrapper']//a[@class='btn btn-secondary'][contains(text(),'Package card')]        
+    Package_button:
+        findBy: xpath    
+        locator: //div[@id='plan-2']//a[@class='btn btn-secondary'][contains(text(),'Package card')]         
+    ID_DropDown:
+        findBy: xpath
+        locator: //select[@name='idtype']       
+    Value_InDropdown:
+        findBy: xpath
+        locator: //option[contains(text(),'Iqama')]           
+    IdNumber_Field:
+        findBy: xpath
+        locator: //label[contains(text(),'ID Number')]          
+    Nationality_Field:
+        findBy: xpath
+        locator: //div[contains(text(),'Nationality')]         
+    CityInKSA_Field:
+        findBy: xpath
+        locator: //div[contains(text(),'Your current city in KSA')]          
+    Nationality_Dropdown:
+        findBy: xpath
+        locator: //select[@name='Nationality']        
+    IDNum_TextField:
+        findBy: xpath
+        locator: //input[@id='id_number']             
+    CityInKSA_Dropdown:
+        findBy: xpath
+        locator: //select[@name='city']       
+    Check_Button:
+        findBy: xpath
+        locator: //input[@class='btn btn-primary']        
+    Sorry_Page:
+        findBy: xpath
+        locator: //div[@class='eligibility-title eligibility-failed-title']        
+    ReEnter_Button:
+        findBy: xpath
+        locator: //input[@value='Re-enter my info']        
+    Congrats_Text:
+        findBy: xpath
+        locator: //div[@class='eligibility-title']           
+    Continue_button:
+        findBy: xpath
+        locator: //input[@class='btn btn-primary']             
+    Google_Link:
+        findBy: xpath
+        locator: //button[contains(text(),'GOOGLE+')]        
+    facebook_link:
+        findBy: xpath
+        locator: //i[text()=' Facebook']         
+    Twitter_link:
+        findBy: xpath
+        locator: //button[contains(text(),'Twitter')]            
+    Agree_Checkbox:
+        findBy: xpath
+        locator: //label[@class='relative pointer checkbox-zone']//i            
+    Email_Field:
+        findBy: xpath
+        locator: //input[@id='email']        
+    Password_Field:
+        findBy: xpath
+        locator: //input[@id='password']       
+    CreateAccount:
+        findBy: xpath
+        locator: //input[@value='CREATE ACCOUNT']        
+    Absher_Button:
+        findBy: xpath
+        locator: //button[text()='Absher Login']        
+    DummyIAM_Token:
+        findBy: xpath
+        locator: //a[@id='lbtn_dummyToken']        
+    VirginSim_Checkbox:
+        findBy: xpath
+        locator: //label[@class='form-lbl sim_number_field_option']       
+    Sim_TextField:
+        findBy: xpath
+        locator: //input[@id='sim_number']        
+    ContinueSim_Button:
+        findBy: xpath
+        locator: //button[text()='Continue']        
+    TryAgain_Button:
+        findBy: xpath
+        locator: //button[text()='TRY AGAIN']        
+    eSim_Checkbox:
+        findBy: xpath
+        locator: //label[contains(text(),'I have eSIM')]       
+    DoneBtn_CarPage:
+        findBy: xpath
+        locator: //input[@class='btn btn-primary']        
+    CardNumber_Field:
+        findBy: xpath
+        locator: //input[@id='card_number']        
+    CardHolder_Field:
+        findBy: xpath
+        locator: //input[@id='card_holder_name']        
+    Expiry_Field:
+        findBy: xpath
+        locator: //input[@id='expiry_date_for_form']        
+    CVV_Field:
+        findBy: xpath
+        locator: //input[@id='card_security_code']         
+    Submit_Button:
+        findBy: xpath
+        locator: //input[@type='submit']       
+    GetSimDelivered_Checkbox:
+        findBy: xpath
+        locator: //label[contains(text(),'Get me the SIM delivered')]           
+    Success_ACS:
+        findBy: xpath
+        locator: //div[text()='YOUR PAYMENT IS COMPLETE']        
+    Continue_ACS:
+        findBy: xpath
+        locator: //button[@class='btn btn-primary']    
+    JoinNowMobile:
+        findBy: xpath
+        locator: //a[contains(text(),'JOIN NOW')]
+     

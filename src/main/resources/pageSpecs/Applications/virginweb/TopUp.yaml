@@ -1,0 +1,165 @@
+timeout: 10
+
+expectedTitle: contentcloud
+
+elements:
+    quicktopup:
+        findBy: xpath
+        locator: //li[@id='menu-item-34994']//a[contains(text(),'QUICK TOP-UP')]
+    burger:
+        findBy: xpath
+        locator: //div[contains(@class,'centered_light')]//div[contains(@class,'burger')]
+    english:
+        findBy: xpath
+        locator: //span[contains(text(),'English')]
+        
+    close:
+        findBy: xpath
+        locator: //div[@class='burger expanded']
+    number:
+        findBy: xpath
+        locator: //input[@id='number']  
+    error:
+        findBy: xpath
+        locator: //div[@class='error-msg']
+    paymentbutton:
+        findBy: xpath
+        locator: //button[@class='btn btn-default']
+    dropdown:
+        findBy: xpath
+        locator: //select[@name='amount']
+    Cardnumber:
+        findBy: xpath
+        locator: //input[@id='card_number']
+    expiry:
+        findBy: xpath
+        locator: //input[@id='expiry_date_for_form']
+    cvv:
+        findBy: xpath
+        locator: //input[@id='card_security_code']
+    cardname:
+        findBy: xpath
+        locator: //input[@id='card_holder_name']
+    paymentbutton2:
+        findBy: xpath
+        locator: //span[@class='payment_button_number']
+    acssubmitbutton:
+        findBy: xpath
+        locator: //input[@value='Submit']
+    homebutton:
+        findBy: xpath
+        locator: //button[@class='btn btn-default']
+    englishLang:
+        findBy: xpath
+        locator: //li[@id='menu-item-26163-en']//a[contains(text(),'English')]  
+    home:
+        findBy: xpath
+        locator: //a[contains(text(),'HOME')]
+    quicktopup1:
+        findBy: xpath
+        locator: //li[@id='menu-item-34994']//a[contains(text(),'QUICK TOP-UP')]
+    hamPlanandProd:
+        findBy: xpath
+        locator: //span[contains(text(),'PLANS & PRODUCTS')]
+    otheroptionplan:
+        findBy: xpath
+        locator: //a[contains(text(),'Plans')]
+    createplan:
+        findBy: xpath
+        locator: //button[@id='custom-plan-btn']
+    hamOtheroptions:
+        findBy: xpath
+        locator: //a[contains(text(),'Other offers')]
+    prepaid:  
+        findBy: xpath
+        locator: //div[@id='prepaid-lnk']
+    hamintrrates:  
+        findBy: xpath
+        locator: //a[contains(text(),'International Rates')]
+    quickTopUp2:  
+        findBy: xpath
+        locator: //li[@id='menu-item-34994']//a[contains(text(),'QUICK TOP-UP')]
+    hamintrroam:
+        findBy: xpath
+        locator: //a[contains(text(),'International Roaming')]
+    familytagham: 
+        findBy: xpath
+        locator: //a[contains(text(),'FAMILY TAG DEVICE')]
+    frendiham: 
+        findBy: xpath
+        locator: //a[contains(text(),'FRiENDi package')]
+    virginmobham: 
+        findBy: xpath
+        locator: //a[contains(text(),'Why Virgin Mobile')]
+    helpham: 
+        findBy: xpath
+        locator: //span[normalize-space()='Help & Support']
+    faqham:
+        findBy: xpath
+        locator: //a[contains(text(),'FAQ')]
+    contactham:
+        findBy: xpath
+        locator: //a[contains(text(),'Contact Us')]
+    findstoreham:
+        findBy: xpath
+        locator: //a[contains(text(),'Find a Store')]
+    notRightNumber: 
+        findBy: xpath
+        locator: //div[contains(text(),'Not the right number ?')]
+    HelpHambrgerSupport:
+        findBy: xpath
+        locator: //span[contains(text(),'Help & Support')]
+    HambrgerMob:
+        findBy: xpath
+        locator: //i[@id='burger-btn']
+    TopUpMob:
+        findBy: xpath
+        locator: //a[@href='/topup']
+    NumberHam:
+        findBy: xpath
+        locator: //input[@id='number']
+    DropDownMob:
+        findBy: xpath
+        locator: //select[@name='amount']
+    paymentbuttonMob:
+        findBy: xpath
+        locator: //button[contains(text(),'Continue to payment')]
+    SubmitafterCrdDetail:
+        findBy: xpath
+        locator: //button[contains(text(),'Continue to payment')]
+    SubmitACSMob:
+        findBy: xpath
+        locator: //tbody/tr[13]/td[1]/input[1]
+    HomeMob:
+        findBy: xpath
+        locator: //button[contains(text(),'HOME')]
+    EnglishMob:
+        findBy: xpath
+        locator: //span[contains(text(),'English')]
+    CloseMob:
+        findBy: xpath
+        locator: //div[@class='burger expanded']
+    OptionsInHam:
+        findBy: xpath
+        locator: //span[contains(text(),'PLANS & PRODUCTS')]
+    LnguageInHam:
+        findBy: xpath
+        locator: //li[@class='menu-itm language']//span[@class='menu-lnk']
+    codeQuickTopUp:
+        findBy: xpath
+        locator: //div[@class='country-form']//div[@class='selected'][contains(text(),'')]
+    successMsg:
+        findBy: xpath
+        locator: //div[@class='status_icn success_icn']
+    
+    
+        
+        
+   
+    
+    
+    
+           
+    
+    
+    

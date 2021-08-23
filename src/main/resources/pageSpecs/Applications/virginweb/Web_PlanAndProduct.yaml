@@ -1,0 +1,117 @@
+timeout: 10
+
+expectedTitle: contentcloud
+
+elements:
+   
+    PlanAndProduct:
+        findBy: xpath
+        locator: //span[contains(text(),'Plans and Products')]
+    OtherOffer:
+        findBy: xpath
+        locator: //li[@id='menu-item-25786']//a[contains(text(),'Other offers')]
+    Prepaid_Content:
+        findBy: xpath
+        locator: //div[contains(text(),'YouTube and Social Media Offers')]
+    PostPaid_Lnk:
+        findBy: xpath
+        locator: //div[@id='postpaid-lnk']
+    Postpaid_Content:
+        findBy: xpath
+        locator: //div[contains(text(),'Standard Package')]
+    PackageCardButton:
+        findBy: xpath
+        locator: //a[contains(text(),'Package card')]
+    ILoveIT_VerifyHome:
+        findBy: xpath
+        locator: //button[@id='book_number']       
+    InterNationalRates:
+        findBy: xpath
+        locator: //li[@id='menu-item-26130']//a[contains(text(),'International Rates')]
+    SelectCountry_Drpdwn:
+        findBy: xpath
+        locator: //select[@id='slct_countries']
+    SlectCountryText:
+        findBy: xpath
+        locator: //option[contains(text(),'Select Country')]
+    Country_inDrpdWn:
+        findBy: xpath
+        locator: //option[contains(text(),'Afghanistan')] 
+    Call_Field:
+        findBy: xpath
+        locator: //div[@id='intl_calls']
+    SMS_Field:
+        findBy: xpath
+        locator: //div[@id='intl_sms']
+    Inter_Roaming:
+        findBy: xpath
+        locator: //li[@id='menu-item-26129']//a[contains(text(),'International Roaming')]
+    Received_Calls:
+        findBy: xpath
+        locator: //div[@data-title='Received Call']
+    SelectCountryRoam:
+        findBy: xpath
+        locator: //select[@id='slct_countries_roaming']
+    CountryRoam:
+        findBy: xpath
+        locator: //option[contains(text(),'AFGHANISTAN')]
+    CallToKSA:
+        findBy: xpath
+        locator: //div[@data-title='Call to KSA']
+    LocalCallRate:
+        findBy: xpath
+        locator: //div[@data-title='Local Call Rate']
+    Family_TagDevicePage:
+        findBy: xpath
+        locator: //div[text()=' DESIGNED TO STAY CLOSE NO MATTER HOW FAR '] 
+    Family_Tag_Device:
+        findBy: xpath
+        locator: //li[@id='menu-item-30055']//a[contains(text(),'FAMILY TAG DEVICE')]
+    Download_App:
+        findBy: xpath
+        locator: //a[contains(text(),'Download app')]
+    Join_Now:
+        findBy: xpath
+        locator: //div[@class='customer-box-btn-area']//a[@class='btn btn-primary'][contains(text(),'JOIN NOW')]
+    Download_Page:
+        findBy: xpath
+        locator: //div[contains(text(),'HELLO!')]           
+    JoinNowPage:
+        findBy: xpath
+        locator: //input[@placeholder='Search for number']
+    FriendiPack:
+        findBy: xpath
+        locator: //li[@id='menu-item-34277']//a[contains(text(),'FRiENDi package')]
+    FriendiPackConfirm:
+        findBy: xpath
+        locator: //span[contains(text(),'PACKAGE OFFERS')] 
+    FriendiButton:
+        findBy: xpath
+        locator: //p[contains(text(),'Virgin Mobile Saudi Consortium LLC brings you the')]
+    Data_button:
+        findBy: xpath
+        locator: //div[@id='data-lnk']
+    Data_Detail:
+        findBy: xpath
+        locator: //div[contains(text(),'Data Bundles')]
+    PackageCard1:
+        findBy: xpath
+        locator: //a[contains(text(),'Package card')]
+    Pack: 
+        findBy: xpath
+        locator: //div[@id='voice-tab']//tr[2]//td[5]//div[1]//a[1]
+    ScrollToCard:
+        findBy: xpath
+        locator: //div[contains(text(),'On-Net Minutes')] 
+    Call_button:
+        findBy: xpath
+        locator: //div[@id='voice-lnk']
+    Call_detail:
+        findBy: xpath
+        locator: //div[contains(text(),'Local Calls')]   
+    DataBundles: 
+        findBy: xpath
+        locator: //div[normalize-space()='Data Bundles']
+    PremiumPackage:
+        findBy: xpath
+        locator: //div[normalize-space()='Premium Package']
